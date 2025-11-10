@@ -41,7 +41,7 @@ It’s designed as a **starter template** for developers who want to build scala
 git clone https://github.com/Janmitsinh/multitenent-ecommerce.git
 cd multitenent-ecommerce
 ```
-## Install dependencies
+### 2. Install dependencies
 ```bash
 # Choose your package manager
 npm install
@@ -53,7 +53,7 @@ pnpm install
 bun install
 ```
 
-## Run the development server
+### 3. Run the development server
 ```bash
 npm run dev
 # or
@@ -65,7 +65,8 @@ bun dev
 ```
 The app will be available at http://localhost:3000
 
-### Project Structure
+## Project Structure
+```bash
 multitenent-ecommerce/
 ├── public/                 # Static assets
 ├── src/                    # Source code (components, pages, lib)
@@ -77,8 +78,9 @@ multitenent-ecommerce/
 ├── ProjectNotes.md         # Developer notes
 ├── ProjectNotesWithPRs.md  # Notes with pull request references
 └── package.json
+```
 
-### Author
+## Author
 Developed by Janmitsinh
 
 If you use or build on this project, consider giving the repo a ⭐ to support the work!
